@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mifta Tools | Calculator - Todo - Notes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background: #0f172a; color: white; }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .btn-gradient { background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); transition: all 0.3s ease; }
+        .btn-gradient:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4); }
+    </style>
+</head>
+<body class="min-h-screen p-4 md:p-8">
+
+    <header class="max-w-6xl mx-auto text-center mb-12">
+        <h1 class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">MIFTA PRODUCTIVITY TOOLS</h1>
+        <p class="text-gray-400 mt-2">All-in-one tools untuk belajar coding & kerja produktif.</p>
+    </header>
+
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <div class="glass p-6 rounded-2xl">
+            <h2 class="text-xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-calculator text-blue-400"></i> Kalkulator</h2>
+            <input type="text" id="display" readonly class="w-full mb-4 p-4 bg-black/30 rounded-xl text-right text-2xl font-bold border border-white/10 outline-none">
+            <div class="grid grid-cols-4 gap-2">
+                <button onclick="clearDisplay()" class="p-4 bg-red-500/20 text-red-400 rounded-xl font-bold">C</button>
+                <button onclick="appendToDisplay('/')" class="p-4 bg-white/5 rounded-xl font-bold">/</button>
+                <button onclick="appendToDisplay('*')" class="p-4 bg-white/5 rounded-xl font-bold">*</button>
+                <button onclick="appendToDisplay('-')" class="p-4 bg-white/5 rounded-xl font-bold">-</button>
+                <button onclick="appendToDisplay('7')" class="p-4 bg-white/5 rounded-xl">7</button>
+                <button onclick="appendToDisplay('8')" class="p-4 bg-white/5 rounded-xl">8</button>
+                <button onclick="appendToDisplay('9')" class="p-4 bg-white/5 rounded-xl">9</button>
+                <button onclick="appendToDisplay('+')" class="p-4 bg-white/5 rounded-xl font-bold">+</button>
+                <button onclick="appendToDisplay('4')" class="p-4 bg-white/5 rounded-xl">4</button>
+                <button onclick="appendToDisplay('5')" class="p-4 bg-white/5 rounded-xl">5</button>
+                <button onclick="appendToDisplay('6')" class="p-4 bg-white/5 rounded-xl">6</button>
+                <button onclick="calculate()" class="row-span-2 p-4 btn-gradient rounded-xl font-bold">=</button>
+                <button onclick="appendToDisplay('1')" class="p-4 bg-white/5 rounded-xl">1</button>
+                <button onclick="appendToDisplay('2')" class="p-4 bg-white/5 rounded-xl">2</button>
+                <button onclick="appendToDisplay('3')" class="p-4 bg-white/5 rounded-xl">3</button>
+                <button onclick="appendToDisplay('0')" class="col-span-3 p-4 bg-white/5 rounded-xl">0</button>
+            </div>
+        </div>
+
+        <div class="glass p-6 rounded-2xl">
+            <h2 class="text-xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-list-check text-green-400"></i> To-Do List</h2>
+            <div class="flex gap-2 mb-4">
+                <input type="text" id="todoInput" placeholder="Tambah tugas baru..." class="flex-1 bg-black/30 border border-white/10 rounded-xl p-3 text-sm focus:border-blue-500 outline-none">
+                <button onclick="addTodo()" class="btn-gradient p-3 px-5 rounded-xl font-bold text-sm">ADD</button>
+            </div>
+            <ul id="todoList" class="space-y-2 max-h-64 overflow-y-auto pr-2">
+                </ul>
+        </div>
+
+        <div class="glass p-6 rounded-2xl lg:col-span-1">
+            <h2 class="text-xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-sticky-note text-yellow-400"></i> Catatan Cepat</h2>
+            <textarea id="noteArea" oninput="saveNote()" placeholder="Tulis ide kamu di sini (tersimpan otomatis)..." class="w-full h-[350px] bg-black/30 border border-white/10 rounded-xl p-4 text-sm focus:border-yellow-500 outline-none resize-none"></textarea>
+            <p id="saveStatus" class="text-[10px] text-gray-500 mt-2 text-right tracking-widest uppercase">Draft Tersimpan</p>
+        </div>
+
+    </div>
+
+    <footer class="mt-20 text-center border-t border-white/5 pt-8">
+        <div class="flex justify-center gap-6 mb-4">
+            <a href="https://wa.me/6288980942762" target="_blank" class="text-gray-400 hover:text-green-500 transition"><i class="fab fa-whatsapp text-2xl"></i></a>
+            <a href="https://instagram.com/ya_rositt" target="_blank" class="text-gray-400 hover:text-pink-500 transition"><i class="fab fa-instagram text-2xl"></i></a>
+        </div>
+        <p class="text-gray-500 text-[10px] tracking-[0.5em] uppercase">&copy; 2026 Developed by Mifta</p>
+    </footer>
+
+    <script>
+        // --- LOGIC KALKULATOR ---
+        function appendToDisplay(value) { document.getElementById('display').value += value; }
+        function clearDisplay() { document.getElementById('display').value = ''; }
+        function calculate() {
+            try { document.getElementById('display').value = eval(document.getElementById('display').value); }
+            catch (e) { alert('Input salah!'); clearDisplay(); }
+        }
+
+        // --- LOGIC TO-DO LIST (With Local Storage) ---
+        let todos = JSON.parse(localStorage.getItem('mifta_todos')) || [];
+        function renderTodos() {
+            const list = document.getElementById('todoList');
+            list.innerHTML = '';
+            todos.forEach((todo, index) => {
+                const li = document.createElement('li');
+                li.className = 'flex justify-between items-center bg-white/5 p-3 rounded-xl border border-white/5';
+                li.innerHTML = `
+                    <span class="text-sm">${todo}</span>
+                    <button onclick="deleteTodo(${index})" class="text-red-400 hover:text-red-300"><i class="fas fa-trash-alt"></i></button>
+                `;
+                list.appendChild(li);
+            });
+            localStorage.setItem('mifta_todos', JSON.stringify(todos));
+        }
+        function addTodo() {
+            const input = document.getElementById('todoInput');
+            if (input.value) {
+                todos.push(input.value);
+                input.value = '';
+                renderTodos();
+            }
+        }
+        function deleteTodo(index) {
+            todos.splice(index, 1);
+            renderTodos();
+        }
+
+        // --- LOGIC NOTES (With Local Storage & Auto Save) ---
+        function saveNote() {
+            const content = document.getElementById('noteArea').value;
+            localStorage.setItem('mifta_note', content);
+            document.getElementById('saveStatus').innerText = 'Tersimpan Otomatis';
+        }
+        
+        // --- LOAD DATA AWAL ---
+        window.onload = function() {
+            renderTodos();
+            document.getElementById('noteArea').value = localStorage.getItem('mifta_note') || '';
+        };
+    </script>
+</body>
+</html>
