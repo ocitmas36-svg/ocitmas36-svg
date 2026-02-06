@@ -1,15 +1,14 @@
 # Hi there, I'm Mifta! 👋 🚀
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=00b4d8&height=200&section=header&text=Frontend%20Developer&fontSize=70&animation=fadeIn" />
-</p>
+## 💻 FRONTEND DEVELOPER | MOBILE-FIRST CODER
+*(Yes, I build all of this entirely on my Smartphone!)*
 
 ---
 
 ## 🏆 FEATURED PROJECT
-<div align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/MOST%20POPULAR-Utility%20Tools-orange?style=for-the-badge&logo=javascript" />
-</div>
+</p>
 
 ### ⚡ [BELAJAR-CODING: All-in-One Utility Tools](https://ocitmas36-svg.github.io/BELAJAR-CODING/)
 > **Proyek unggulan saya yang menggabungkan fungsi Kalkulator, To-Do List, dan Catatan dalam satu dashboard estetik.**
@@ -36,7 +35,6 @@ I am a **Frontend Web Developer** based in Indonesia, specializing in building h
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
 </p>
 
 ---
@@ -53,8 +51,7 @@ I am a **Frontend Web Developer** based in Indonesia, specializing in building h
 
 ### 📊 My GitHub Stats
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ocitmas36-svg&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ocitmas36-svg&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ocitmas36-svg&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
 </p>
 
 ---
@@ -62,7 +59,6 @@ I am a **Frontend Web Developer** based in Indonesia, specializing in building h
 ### 📞 Connect With Me
 * **WhatsApp:** [+62 889-8094-2762](https://wa.me/6288980942762)
 * **Instagram:** [@ya_rositt](https://instagram.com/ya_rositt)
-* **Location:** Tangerang, Indonesia 🇮🇩
 
 ---
 <p align="center">
