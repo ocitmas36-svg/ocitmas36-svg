@@ -6,7 +6,7 @@
 
 ---
 
-## 🏆 FEATURED PROJECT (Mencolok)
+## 🏆 FEATURED PROJECT
 <div align="center">
   <img src="https://img.shields.io/badge/MOST%20POPULAR-Utility%20Tools-orange?style=for-the-badge&logo=javascript" />
 </div>
@@ -15,17 +15,18 @@
 > **Proyek unggulan saya yang menggabungkan fungsi Kalkulator, To-Do List, dan Catatan dalam satu dashboard estetik.**
 
 - 🚀 **Live Demo:** [Buka Aplikasi Di Sini](https://ocitmas36-svg.github.io/BELAJAR-CODING/)
-- 🛠️ **Fitur Utama:** Logika JavaScript murni, Simpan Catatan, & Kalkulator Responsif.
-- 🎨 **UI/UX:** Didesain dengan **Tailwind CSS** dengan mode gelap yang modern.
+- 🛠️ **Fitur Utama:** Logika JavaScript murni, Simpan Catatan (Local Storage), & Kalkulator Responsif.
+- 📱 **Fun Fact:** Proyek ini dibangun sepenuhnya menggunakan perangkat mobile (HP)!
 
 ---
 
 ### 👨‍💻 About Me
 I am a **Frontend Web Developer** based in Indonesia, specializing in building high-conversion landing pages and functional web applications.
 
+- 📱 **Mobile-First Coder:** I have a unique ability to build and deploy web applications entirely via mobile devices, proving my dedication and technical adaptability.
 - 🔭 I’m currently working on **Modern Web Solutions**.
 - 💼 Available for **Freelance Projects** and **Remote Internships**.
-- 📱 Contact: [0889-8094-2762](https://wa.me/6288980942762) | IG: [@ya_rositt](https://instagram.com/ya_rositt)
+- 📞 Contact: [0889-8094-2762](https://wa.me/6288980942762) | IG: [@ya_rositt](https://instagram.com/ya_rositt)
 
 ---
 
@@ -35,6 +36,7 @@ I am a **Frontend Web Developer** based in Indonesia, specializing in building h
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
 </p>
 
 ---
@@ -52,10 +54,17 @@ I am a **Frontend Web Developer** based in Indonesia, specializing in building h
 ### 📊 My GitHub Stats
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ocitmas36-svg&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ocitmas36-svg&layout=compact&theme=tokyonight" />
 </p>
 
 ---
 
-### 📞 Contact
-* **WhatsApp:** [0889-8094-2762](https://wa.me/6288980942762)
+### 📞 Connect With Me
+* **WhatsApp:** [+62 889-8094-2762](https://wa.me/6288980942762)
 * **Instagram:** [@ya_rositt](https://instagram.com/ya_rositt)
+* **Location:** Tangerang, Indonesia 🇮🇩
+
+---
+<p align="center">
+  <i>"Dedication sees no limits, even on a small screen."</i>
+</p>
