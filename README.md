@@ -11,7 +11,6 @@ Saya adalah seorang pengembang web yang senang bereksperimen dengan berbagai tek
 * **[Privacy Guard Web](https://ocitmas36-svg.github.io/privacy-guard-web/)** - Aplikasi untuk meningkatkan keamanan privasi pengguna saat berselancar.
 * **[Camera Transfer](https://ocitmas36-svg.github.io/Camera-tranfer/)** - Eksperimen Web API untuk akses dan integrasi kamera langsung di browser.
 * **[Swipe Share App](https://ocitmas36-svg.github.io/swipe-share-app/)** - Solusi berbagi file dengan antarmuka yang modern dan intuitif.
-* **[CEO-DEON-ANKRINGAN](https://ocitmas36-svg.github.io/CEO-DEON-ANKRINGAN)** - Project website untuk manajemen atau profil usaha angkringan.
 * **[OMAN-HOTELL](https://ocitmas36-svg.github.io/OMAN-HOTELL)** - Project landing page atau sistem informasi untuk perhotelan.
 
 #### 📚 Learning & Education
