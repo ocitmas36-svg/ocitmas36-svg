@@ -1,66 +1,50 @@
-# Hi there, I'm Mifta! 👋 🚀
+# Hi there, I'm Rosit! 👋
+**Web Developer | Tech Explorer**
 
-## 💻 FRONTEND DEVELOPER | MOBILE-FIRST CODER
-*(Yes, I build all of this entirely on my Smartphone!)*
-
----
-
-## 🏆 FEATURED PROJECT
-<p align="left">
-  <img src="https://img.shields.io/badge/MOST%20POPULAR-Utility%20Tools-orange?style=for-the-badge&logo=javascript" />
-</p>
-
-### ⚡ [BELAJAR-CODING: All-in-One Utility Tools](https://ocitmas36-svg.github.io/BELAJAR-CODING/)
-> **Proyek unggulan saya yang menggabungkan fungsi Kalkulator, To-Do List, dan Catatan dalam satu dashboard estetik.**
-
-- 🚀 **Live Demo:** [Buka Aplikasi Di Sini](https://ocitmas36-svg.github.io/BELAJAR-CODING/)
-- 🛠️ **Fitur Utama:** Logika JavaScript murni, Simpan Catatan (Local Storage), & Kalkulator Responsif.
-- 📱 **Fun Fact:** Proyek ini dibangun sepenuhnya menggunakan perangkat mobile (HP)!
+Saya adalah seorang pengembang web yang senang bereksperimen dengan berbagai teknologi, mulai dari tools produktivitas hingga integrasi hardware seperti kamera lewat browser.
 
 ---
 
-### 👨‍💻 About Me
-I am a **Frontend Web Developer** based in Indonesia, specializing in building high-conversion landing pages and functional web applications.
+### 🚀 All Projects & Experiments
 
-- 📱 **Mobile-First Coder:** I have a unique ability to build and deploy web applications entirely via mobile devices, proving my dedication and technical adaptability.
-- 🔭 I’m currently working on **Modern Web Solutions**.
-- 💼 Available for **Freelance Projects** and **Remote Internships**.
-- 📞 Contact: [0889-8094-2762](https://wa.me/6288980942762) | IG: [@ya_rositt](https://instagram.com/ya_rositt)
+#### 🛠️ Core & Tools
+* **[Privacy Guard Web](https://ocitmas36-svg.github.io/privacy-guard-web/)** - Aplikasi untuk meningkatkan keamanan privasi pengguna saat berselancar.
+* **[Camera Transfer](https://ocitmas36-svg.github.io/Camera-tranfer/)** - Eksperimen Web API untuk akses dan integrasi kamera langsung di browser.
+* **[Swipe Share App](https://ocitmas36-svg.github.io/swipe-share-app/)** - Solusi berbagi file dengan antarmuka yang modern dan intuitif.
+* **[CEO-DEON-ANKRINGAN](https://ocitmas36-svg.github.io/CEO-DEON-ANKRINGAN)** - Project website untuk manajemen atau profil usaha angkringan.
+* **[OMAN-HOTELL](https://ocitmas36-svg.github.io/OMAN-HOTELL)** - Project landing page atau sistem informasi untuk perhotelan.
+
+#### 📚 Learning & Education
+* **[BELAJAR-CODING](https://ocitmas36-svg.github.io/BELAJAR-CODING/)** - Dokumentasi perjalanan belajar pemrograman dan koleksi materi.
+* **[APA-ITU-CODING-PROGRAMER](https://ocitmas36-svg.github.io/APA-ITU-CODING-PROGRAMER-)** - Repositori edukatif yang menjelaskan dasar-dasar dunia pemrograman.
+
+#### 🎮 Games & Fun
+* **[GTA-INDONESIAN](https://ocitmas36-svg.github.io/GTA-INDONESIAN-)** - Project bertema modding atau informasi seputar game GTA dengan kearifan lokal.
+* **[Project-SecondWorld-MVP](https://ocitmas36-svg.github.io/Project-SecondWorld-MVP)** - Pengembangan tahap awal (Minimum Viable Product) untuk proyek dunia virtual.
+
+#### 📁 Portfolios & Others
+* **[Portofolio Utama](https://ocitmas36-svg.github.io/portofolio-/)** - Showcase utama seluruh karya dan skill saya.
+* **[My Notion Porto](https://ocitmas36-svg.github.io/my-notion-porto)** - Integrasi portofolio menggunakan platform Notion.
+* **[Testing Jual Web](https://ocitmas36-svg.github.io/testing-jual-web)** - Repositori eksperimen untuk sistem penjualan website.
+* **[Rosit-Pro](https://ocitmas36-svg.github.io/rosit-pro)** & **[Index.html](https://ocitmas36-svg.github.io/index.html)** - Berbagai pengujian dan personal branding tambahan.
 
 ---
 
 ### 🛠️ Tech Stack & Tools
-<p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" />
-</p>
+- **Languages:** HTML5, CSS3, JavaScript (ES6+)
+- **Tools:** Git & GitHub, VS Code, Mobile Coding Tools
+- **Learning:** Saat ini sedang mendalami optimasi performa web dan framework modern.
 
 ---
 
-### 🌟 Other Projects
-
-| Project Name | Description | Tech Stack | Link |
-| :--- | :--- | :--- | :--- |
-| **🏨 OMAN HOTEL** | Premium Luxury Hotel Landing Page | Tailwind CSS | [Live Demo](https://ocitmas36-svg.github.io/OMAN-HOTELL/) |
-| **🛡️ PRIVACY GUARD** | Web-based Security Concept | HTML/JS | [Source](https://github.com/ocitmas36-svg/privacy-guard-web) |
-| **📓 NOTION PORTO** | Minimalist Portfolio | CSS/HTML | [Source](https://github.com/ocitmas36-svg/my-notion-porto) |
+### 📈 GitHub Stats
+![Rosit's GitHub stats](https://github-readme-stats.vercel.app/api?username=ocitmas36-svg&show_icons=true&theme=radical)
 
 ---
 
-### 📊 My GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ocitmas36-svg&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-</p>
+### 🤝 Let's Connect!
+- **Instagram:** [@ya_rositt](https://instagram.com/ya_rositt)
+- **WhatsApp:** [Hubungi Saya](https://wa.me/6288980942762)
+- **Portfolio:** [Check out my full work here!](https://ocitmas36-svg.github.io/portofolio-/)
 
----
-
-### 📞 Connect With Me
-* **WhatsApp:** [+62 889-8094-2762](https://wa.me/6288980942762)
-* **Instagram:** [@ya_rositt](https://instagram.com/ya_rositt)
-
----
-<p align="center">
-  <i>"Dedication sees no limits, even on a small screen."</i>
-</p>
+*"Coding is not just about syntax, it's about solving problems."*
